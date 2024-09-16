@@ -1,6 +1,20 @@
 
 using System;
 
+/*
+Class ListNode is in-built in the solution file on leetcode.com. 
+When running the code on the website, do not include this class.
+ */
+public class ListNode
+{
+    public int val;
+    public ListNode next;
+    public ListNode(int val = 0, ListNode next = null)
+    {
+        this.val = val;
+        this.next = next;
+    }
+}
 
 public class Solution
 {
